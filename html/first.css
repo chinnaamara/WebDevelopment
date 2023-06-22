@@ -1,5 +1,27 @@
-div {
+#head {
 	background-color:black;
 	color:green;
 	padding: 20px;
+}
+
+#first-para {
+	color: green;
+	font-size: 20px;
+}
+
+#second-para {
+	color: red;
+}
+
+.content {
+	width: 50%;
+	background-color: grey;
+	padding: 16px;
+}
+
+.content-2 {
+	width: 50%;
+	background-color: grey;
+	padding: 16px;
+	float: right;
 }
