@@ -2,19 +2,21 @@
 <html>
 	<head>
 		<title>New Employee</title>
-		<link rel="stylesheet" href="employee.css"/>
+		<link rel="stylesheet" href="../../../style/employee.css"/>
 	</head>
 	<body>
 		<h1 class="heading">Create New Employee</h1>
 		<div class="container">
 			<div class="form-field">
-				<label>Name:</label><br>
-				<input type="text" maxlength="4" />
+				<label><u>Name:</u></label><br>
+				<input type="text" maxlength="24" />
+				<div>Name must be more than 3 chars</div>
+				<div>Enter only first name</div>
 			</div>
-			<div class="form-field">
+			<!-- <div class="form-field">
 				<label>Surname:</label><br>
 				<input type="text" />
-			</div>
+			</div> -->
 			<div class="form-field">
 				<label>Email:</label><br>
 				<input type="email" />
@@ -27,7 +29,9 @@
 				<label>Age:</label><br>
 				<input type="number" />
 			</div>
-			<hr>
+			<button class="btn-save">Save</button>
+			<a target="_blank" href="https://www.w3schools.com">Visit W3Schools</a>
+			<!-- <hr> -->
 			<!-- <img src="bird.jpeg" /> -->
 		</div>
 	</body>

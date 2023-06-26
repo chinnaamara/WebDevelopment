@@ -1,0 +1,25 @@
+.container {
+	border: 1px solid grey;
+	margin: 2% 20%;
+	padding: 16px 16px 16px 16px;
+}
+
+.header {
+	text-align: center;
+}
+
+.data-table {
+	border: 1px solid grey;
+}
+
+.data-table > tbody > tr {
+	height: 36px;
+
+}
+.data-table > tbody > tr > td {
+	border: 1px solid grey;
+}
+.data-table > tbody > tr > th {
+	border: 1px solid grey;
+	background-color: grey;
+}
