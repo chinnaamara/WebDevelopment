@@ -1,3 +1,7 @@
+h1 {
+	color: green;
+}
+
 .header {
 	text-align: center;
 }
@@ -9,7 +13,7 @@
 }
 
 .form-field {
-	margin: 8px;
+	margin: 28px;
 }
 
 .form-field > input {
