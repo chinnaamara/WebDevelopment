@@ -3,13 +3,14 @@
 	<head>
 		<title>New Employee</title>
 		<link rel="stylesheet" href="../../../style/employee.css"/>
+		<script src="employee.js"></script>
 	</head>
 	<body>
 		<h1 id="heading1" class="heading">Create New Employee</h1>
 		<div class="container">
 			<div class="form-field">
 				<label><u>Name:</u></label><br>
-				<input type="text" maxlength="24" />
+				<input id="empName" type="text" maxlength="24" />
 				<div>Name must be more than 3 chars</div>
 				<div>Enter only first name</div>
 			</div>
@@ -32,7 +33,7 @@
 			<div class="form-field">
 				<input type="file" multiple accept="image/jpeg" />
 			</div>
-			<button class="btn-save">Save</button>
+			<button onclick="save()" class="btn-save">Save</button>
 			<a target="_blank" href="https://www.w3schools.com">Visit W3Schools</a>
 			<!-- <hr> -->
 			<!-- <img src="bird.jpeg" /> -->
